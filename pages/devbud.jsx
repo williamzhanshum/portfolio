@@ -2,6 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import devbudImg from '../public/assets/projects/devbud_page.png';
 import Link from 'next/link';
+import react from '../public/assets/skills/react.png';
+import mongo from '../public/assets/skills/mongo.png';
+import node from '../public/assets/skills/node.png';
+import aws from '../public/assets/skills/aws.png';
+import tailwind from '../public/assets/skills/tailwind.png';
 
 const devbud = () => {
   return (
@@ -36,7 +41,10 @@ const devbud = () => {
           <Link href='https://devbud.williamzhan.com/' target='_blank'>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </Link>
-          <Link href='#' target='_blank'>
+          <Link
+            href='https://github.com/williamzhanshum/devbud_mern_app-willzhan'
+            target='_blank'
+          >
             <button className='px-8 py-2 mt-4 '>Code</button>
           </Link>
         </div>
@@ -48,12 +56,7 @@ const devbud = () => {
               <div className='p-4 shadow-md rounded-xl hover:scale-105 ease-in duration-300 m-2'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image
-                      src='/../public/assets/skills/react.png'
-                      width='30'
-                      height='30'
-                      alt='react'
-                    />
+                    <Image src={react} width='30' height='30' alt='react' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>React</h3>
@@ -64,12 +67,7 @@ const devbud = () => {
               <div className='p-4 shadow-md rounded-xl hover:scale-105 ease-in duration-300 m-2'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image
-                      src='/../public/assets/skills/mongo.png'
-                      width='30'
-                      height='30'
-                      alt='mongo'
-                    />
+                    <Image src={mongo} width='30' height='30' alt='mongo' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>Mongo</h3>
@@ -80,12 +78,7 @@ const devbud = () => {
               <div className='p-4 shadow-md rounded-xl hover:scale-105 ease-in duration-300 m-2'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image
-                      src='/../public/assets/skills/node.png'
-                      width='30'
-                      height='30'
-                      alt='node'
-                    />
+                    <Image src={node} width='30' height='30' alt='node' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>Node</h3>
@@ -96,12 +89,7 @@ const devbud = () => {
               <div className='p-4 shadow-md rounded-xl hover:scale-105 ease-in duration-300 m-2'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image
-                      src='/../public/assets/skills/aws.png'
-                      width='30'
-                      height='30'
-                      alt='aws'
-                    />
+                    <Image src={aws} width='30' height='30' alt='aws' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>AWS</h3>
@@ -113,7 +101,7 @@ const devbud = () => {
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
                     <Image
-                      src='/../public/assets/skills/tailwind.png'
+                      src={tailwind}
                       width='30'
                       height='30'
                       alt='tailwind'
