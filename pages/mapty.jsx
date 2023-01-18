@@ -25,16 +25,17 @@ const mapty = () => {
 
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
         <div className='col-span-4'>
-          <p className='text-xl font-semibold tracking-widest uppercase text-[rgb(52,93,167)] mb-4'>
+          <h2 className='text-3xl font-semibold tracking-widest uppercase text-[rgb(52,93,167)] mb-4'>
             Project Overview
-          </p>
+          </h2>
           {/* <h2>Overview</h2> */}
+          <p className='mb-2 font-bold'>
+            Why did you do that project? What did you learn? What obstacles did
+            you overcome? What did you enjoy?
+          </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-            explicabo necessitatibus, ut sapiente a fugiat provident veniam
-            quos, fugit ratione, et sint. Enim aspernatur inventore aliquid
-            assumenda sequi. Deserunt, ex? Why did you do that project? What did
-            you learn? What obstacles did you overcome? What did you enjoy?
+            Mapty is a front-end application built using JavaScript, CSS and
+            HTML.
           </p>
           <Link href='https://mapty-william.netlify.app/' target='_blank'>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
