@@ -2,6 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 import forkifyImg from '../public/assets/projects/forkify_page.png';
 import Link from 'next/link';
+import css from '../public/assets/skills/css.png';
+import javascript from '../public/assets/skills/javascript.png';
+import html from '../public/assets/skills/html.png';
 
 const forkify = () => {
   return (
@@ -52,7 +55,7 @@ const forkify = () => {
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
                     <Image
-                      src='/../public/assets/skills/javascript.png'
+                      src={javascript}
                       width='30'
                       height='30'
                       alt='javascript'
@@ -67,12 +70,7 @@ const forkify = () => {
               <div className='p-4 shadow-md rounded-xl hover:scale-105 ease-in duration-300 m-2'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image
-                      src='/../public/assets/skills/html.png'
-                      width='30'
-                      height='30'
-                      alt='html'
-                    />
+                    <Image src={html} width='30' height='30' alt='html' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>HTML</h3>
@@ -83,12 +81,7 @@ const forkify = () => {
               <div className='p-4 shadow-md rounded-xl hover:scale-105 ease-in duration-300 m-2'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image
-                      src='/../public/assets/skills/css.png'
-                      width='30'
-                      height='30'
-                      alt='css'
-                    />
+                    <Image src={css} width='30' height='30' alt='css' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>CSS</h3>

@@ -2,6 +2,10 @@ import React from 'react';
 import Image from 'next/image';
 import beyondReImg from '../public/assets/projects/beyondRE_page.png';
 import Link from 'next/link';
+import flask from '../public/assets/skills/flask.png';
+import sql from '../public/assets/skills/sql.png';
+import google from '../public/assets/skills/google.png';
+import python from '../public/assets/skills/python.png';
 
 const property = () => {
   return (
@@ -48,12 +52,7 @@ const property = () => {
               <div className='p-4 shadow-md rounded-xl hover:scale-105 ease-in duration-300 m-2'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image
-                      src='/../public/assets/skills/python.png'
-                      width='30'
-                      height='30'
-                      alt='python'
-                    />
+                    <Image src={python} width='30' height='30' alt='python' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>Python</h3>
@@ -64,12 +63,7 @@ const property = () => {
               <div className='p-4 shadow-md rounded-xl hover:scale-105 ease-in duration-300 m-2'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image
-                      src='/../public/assets/skills/flask.png'
-                      width='30'
-                      height='30'
-                      alt='flask'
-                    />
+                    <Image src={flask} width='30' height='30' alt='flask' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>Flask</h3>
@@ -80,12 +74,7 @@ const property = () => {
               <div className='p-4 shadow-md rounded-xl hover:scale-105 ease-in duration-300 m-2'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image
-                      src='/../public/assets/skills/sql.png'
-                      width='30'
-                      height='30'
-                      alt='sql'
-                    />
+                    <Image src={sql} width='30' height='30' alt='sql' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>SQL</h3>
@@ -96,12 +85,7 @@ const property = () => {
               <div className='p-4 shadow-md rounded-xl hover:scale-105 ease-in duration-300 m-2'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
-                    <Image
-                      src='/../public/assets/skills/google.png'
-                      width='30'
-                      height='30'
-                      alt='google'
-                    />
+                    <Image src={google} width='30' height='30' alt='google' />
                   </div>
                   <div className='flex flex-col items-center justify-center'>
                     <h3>Google API</h3>
