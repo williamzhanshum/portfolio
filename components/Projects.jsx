@@ -18,28 +18,28 @@ const Projects = () => {
             title='DEVBUD.'
             description='Social Media + Study Room'
             backgroundImg={devbudImg}
-            projectUrl='/devbud'
+            projectUrl='/Devbud'
             demoUrl='https://devbud.williamzhan.com'
           />
           <ProjectItem
             title='Beyond Real Estate'
             description='Property Management App'
             backgroundImg={beyondReImg}
-            projectUrl='/property'
+            projectUrl='/Property'
             demoUrl='/'
           />
           <ProjectItem
             title='Forkify App'
             description='Recipe Finder and Maker'
             backgroundImg={forkifyImg}
-            projectUrl='/forkify'
+            projectUrl='/Forkify'
             demoUrl='https://forkify-william.netlify.app/'
           />
           <ProjectItem
             title='Mapty'
             description='Exercise Logging App'
             backgroundImg={maptyImg}
-            projectUrl='/mapty'
+            projectUrl='/Mapty'
             demoUrl='https://mapty-william.netlify.app/'
           />
         </div>
