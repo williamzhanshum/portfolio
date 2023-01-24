@@ -7,7 +7,7 @@ import javascript from '../public/assets/skills/javascript.png';
 import html from '../public/assets/skills/html.png';
 import ReactPlayer from 'react-player';
 
-const mapty = () => {
+const Mapty = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
@@ -117,4 +117,4 @@ const mapty = () => {
   );
 };
 
-export default mapty;
+export default Mapty;

@@ -6,7 +6,7 @@ import css from '../public/assets/skills/css.png';
 import javascript from '../public/assets/skills/javascript.png';
 import html from '../public/assets/skills/html.png';
 
-const forkify = () => {
+const Forkify = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
@@ -106,4 +106,4 @@ const forkify = () => {
   );
 };
 
-export default forkify;
+export default Forkify;

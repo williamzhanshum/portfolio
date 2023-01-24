@@ -8,7 +8,7 @@ import node from '../public/assets/skills/node.png';
 import aws from '../public/assets/skills/aws.png';
 import tailwind from '../public/assets/skills/tailwind.png';
 
-const devbud = () => {
+const Devbud = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
@@ -148,4 +148,4 @@ const devbud = () => {
   );
 };
 
-export default devbud;
+export default Devbud;
