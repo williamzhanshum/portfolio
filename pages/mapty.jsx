@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import maptyImg from '../public/assets/projects/mapty-page.png';
 import Link from 'next/link';
@@ -8,11 +8,11 @@ import html from '../public/assets/skills/html.png';
 import ReactPlayer from 'react-player';
 
 const mapty = () => {
-  // const [isLoaded, setIsLoaded] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
 
-  // useEffect(() => {
-  //   setIsLoaded(true);
-  // }, []);
+  useEffect(() => {
+    setIsLoaded(true);
+  }, []);
 
   return (
     <div className='w-full'>
@@ -46,14 +46,14 @@ const mapty = () => {
           </h2>
 
           {/* Demo Video  */}
-          {/* {isLoaded && (
+          {isLoaded && (
             <ReactPlayer
               className='mb-4'
               controls
               // width='900px'
               url='https://vimeo.com/792337969/d34c2afee2'
             />
-          )} */}
+          )}
 
           <p className='mb-2 font-bold'>
             Why did you do that project? What did you learn? What obstacles did
