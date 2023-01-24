@@ -20,6 +20,15 @@ const forkify = () => {
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Forkify</h2>
           <h3>Recipe Finder and Maker App</h3>
+          <Link href='https://forkify-william.netlify.app/' target='_blank'>
+            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+          </Link>
+          <Link
+            href='https://github.com/williamzhanshum/forkify-app'
+            target='_blank'
+          >
+            <button className='px-8 py-2 mt-4 '>Code</button>
+          </Link>
         </div>
       </div>
 
@@ -30,13 +39,11 @@ const forkify = () => {
           </p>
           {/* <h2>Overview</h2> */}
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-            explicabo necessitatibus, ut sapiente a fugiat provident veniam
-            quos, fugit ratione, et sint. Enim aspernatur inventore aliquid
-            assumenda sequi. Deserunt, ex? Why did you do that project? What did
-            you learn? What obstacles did you overcome? What did you enjoy?
+            Forkify is a font-end applicatio built on Javascript, CSS, HTML, and
+            the Forkify API. Why did you do that project? What did you learn?
+            What obstacles did you overcome? What did you enjoy?
           </p>
-          <Link href='https://forkify-william.netlify.app/' target='_blank'>
+          {/* <Link href='https://forkify-william.netlify.app/' target='_blank'>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </Link>
           <Link
@@ -44,7 +51,7 @@ const forkify = () => {
             target='_blank'
           >
             <button className='px-8 py-2 mt-4 '>Code</button>
-          </Link>
+          </Link> */}
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>

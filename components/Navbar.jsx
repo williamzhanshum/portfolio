@@ -99,8 +99,9 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Backgroun overlay for mabile menu  */}
+      {/* Background overlay for mabile menu  */}
       <div
+        onClick={handleNav}
         className={
           nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
         }
@@ -169,7 +170,7 @@ const Navbar = () => {
             </ul>
             <div className='pt-40 '>
               <p className='uppercase tracking-widest text-[rgb(52,93,167)]'>
-                Let's connect
+                Let's Connect
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>

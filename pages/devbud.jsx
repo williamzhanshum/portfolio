@@ -22,22 +22,7 @@ const devbud = () => {
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>DEVBUD.</h2>
           <h3>Social Media + Study Room App</h3>
-        </div>
-      </div>
 
-      <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
-        <div className='col-span-4'>
-          <p className='text-3xl font-semibold tracking-widest uppercase text-[rgb(52,93,167)] mb-4'>
-            Project Overview
-          </p>
-          {/* <h2>Overview</h2> */}
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-            explicabo necessitatibus, ut sapiente a fugiat provident veniam
-            quos, fugit ratione, et sint. Enim aspernatur inventore aliquid
-            assumenda sequi. Deserunt, ex? Why did you do that project? What did
-            you learn? What obstacles did you overcome? What did you enjoy?
-          </p>
           <Link href='https://devbud.williamzhan.com/' target='_blank'>
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </Link>
@@ -45,9 +30,49 @@ const devbud = () => {
             href='https://github.com/williamzhanshum/devbud_mern_app-willzhan'
             target='_blank'
           >
-            <button className='px-8 py-2 mt-4 '>Code</button>
+            <button className='px-8 py-2 mt-4 '>See the Code</button>
           </Link>
         </div>
+      </div>
+
+      <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
+        <div className='col-span-4 max-w-[900px]'>
+          <p className='text-3xl font-semibold tracking-widest uppercase text-[rgb(52,93,167)] mb-4'>
+            Project Overview
+          </p>
+          <div className='mb-8'>
+            <img
+              src='https://user-images.githubusercontent.com/99300376/213829176-39182bfa-d13f-4d48-8be9-73be2b27789b.gif'
+              width=''
+            />
+          </div>
+          <p className='mt-4 font-bold text-[rgb(52,93,167)]'>
+            For more details about the code and features click on the CODE
+            button!
+          </p>
+          <p className='mt-4'>
+            DEVBUD. is a full-stack application built with React, MongoDB,
+            Firebase, TailwindCSS, and WebRTC. This is a social networking app
+            for software developers that also has a collaborative code space. In
+            this app, aspiring developers are able to network with experienced
+            developers to improve their coding skills. The collaborative code
+            space has live group chat messaging, live group video calls, screen
+            sharing, and a collaborative code editor that supports JavaScript,
+            Python, and Java. Check it out!
+          </p>
+
+          <p className='mt-4'>
+            When I started my coding journey I was fortunate enough to have
+            friends who were software developers that could help me learn how to
+            code. Any time I had questions or was stuck with a problem I could
+            easily message my friends and get help. I realized, however, that
+            most people don't have access to a community of experienced
+            developers they as for help. This is where the inspiration for this
+            project came from, I wanted to make it easier for aspiring
+            developers to have access to experienced developers to mentor them.
+          </p>
+        </div>
+
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>
             <p className='text-center text-lg font-bold pb-2'>Technologies</p>

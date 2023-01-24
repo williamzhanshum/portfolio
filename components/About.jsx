@@ -35,8 +35,8 @@ const About = () => {
             enim modi veniam molestiae qui unde aut molestias!
           </p>
           <Link href='/#projects' scroll={false}>
-            <p className='py-2 text-[rgb(52,93,167)] underline cursor-pointer animate-pulse duration-300 text-lg'>
-              Check out some of my projects!
+            <p className='py-2 text-[rgb(52,93,167)] underline cursor-pointer animate-pulse duration-300 text-lg font-semibold'>
+              Check out my projects!
             </p>
           </Link>
         </div>
