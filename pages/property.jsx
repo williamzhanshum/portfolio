@@ -7,7 +7,7 @@ import sql from '../public/assets/skills/sql.png';
 import google from '../public/assets/skills/google.png';
 import python from '../public/assets/skills/python.png';
 
-const Property = () => {
+const property = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
@@ -128,4 +128,4 @@ const Property = () => {
   );
 };
 
-export default Property;
+export default property;

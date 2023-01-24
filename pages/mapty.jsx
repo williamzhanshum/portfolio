@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import maptyImg from '../public/assets/projects/mapty-page.png';
 import Link from 'next/link';
@@ -7,7 +7,7 @@ import javascript from '../public/assets/skills/javascript.png';
 import html from '../public/assets/skills/html.png';
 import ReactPlayer from 'react-player';
 
-const Mapty = () => {
+const mapty = () => {
   // const [isLoaded, setIsLoaded] = useState(false);
 
   // useEffect(() => {
@@ -117,4 +117,4 @@ const Mapty = () => {
   );
 };
 
-export default Mapty;
+export default mapty;

@@ -16,14 +16,14 @@ const Main = () => {
             Hello, I'm <span className='text-[rgb(52,93,167)]'>William</span>
           </h1>
           <h1 className='py-4 text-gray-700'>A Full-Stack Developer</h1>
-          <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
+          {/* <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
             quibusdam, aliquam totam debitis eligendi quis ex vel magni cum
             obcaecati dolor qui, iusto laborum inventore necessitatibus
             asperiores itaque quisquam, illo dolores rerum autem sequi omnis
             maiores ea. Unde officia quis voluptatibus sequi suscipit enim
             delectus! Temporibus officia repellat aperiam nihil.
-          </p>
+          </p> */}
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <Link
               href='https://www.linkedin.com/in/william-zhan/'
