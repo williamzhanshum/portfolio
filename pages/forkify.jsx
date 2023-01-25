@@ -21,13 +21,13 @@ const forkify = () => {
           <h2 className='py-2'>Forkify</h2>
           <h3>Recipe Finder and Maker App</h3>
           <Link href='https://forkify-william.netlify.app/' target='_blank'>
-            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+            <button className='px-8 py-2 mt-4 mr-8 mb-4'>Demo</button>
           </Link>
           <Link
             href='https://github.com/williamzhanshum/forkify-app'
             target='_blank'
           >
-            <button className='px-8 py-2 mt-4 '>Code</button>
+            <button className='px-8 py-2 mt-4 mb-4'>Code</button>
           </Link>
         </div>
       </div>
@@ -37,21 +37,35 @@ const forkify = () => {
           <p className='text-3xl font-semibold tracking-widest uppercase text-[rgb(52,93,167)] mb-4'>
             Project Overview
           </p>
-          {/* <h2>Overview</h2> */}
+
+          <div className='relative flex items-center justify-center h-auto w-[80%] p-4 group mb-4 shadow-lg rounded-xl'>
+            <Link href='https://vimeo.com/792437146/25a32a4ab1' target='_blank'>
+              <img
+                className='opacity-30 hover:opacity-100'
+                src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/73060fd8-cf88-470b-a9b7-a3b4e5d92778.gif?ClientID=vimeo-core-prod&Date=1674611009&Signature=1ab8b47fa6d76fb1dbb252d6919c707b64e3a77b'
+                width='900px'
+              />
+            </Link>
+
+            <div className='flex-col group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
+              <div>
+                <Link
+                  href='https://vimeo.com/792437146/25a32a4ab1'
+                  target='_blank'
+                >
+                  <p className='text-center p-3 rounded-lg bg-red-400 text-gray-700 font-bold text-lg cursor-pointer shadow-xl'>
+                    WATCH VIDEO
+                  </p>
+                </Link>
+              </div>
+            </div>
+          </div>
+
           <p>
             Forkify is a font-end applicatio built on Javascript, CSS, HTML, and
             the Forkify API. Why did you do that project? What did you learn?
             What obstacles did you overcome? What did you enjoy?
           </p>
-          {/* <Link href='https://forkify-william.netlify.app/' target='_blank'>
-            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          </Link>
-          <Link
-            href='https://github.com/williamzhanshum/forkify-app'
-            target='_blank'
-          >
-            <button className='px-8 py-2 mt-4 '>Code</button>
-          </Link> */}
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>
@@ -68,7 +82,7 @@ const forkify = () => {
                       alt='javascript'
                     />
                   </div>
-                  <div className='flex flex-col items-center justify-center text-sm'>
+                  <div className='hidden md:flex flex-col items-center justify-center text-sm'>
                     <h3>JavaScript</h3>
                   </div>
                 </div>
@@ -79,7 +93,7 @@ const forkify = () => {
                   <div className='m-auto'>
                     <Image src={html} width='30' height='30' alt='html' />
                   </div>
-                  <div className='flex flex-col items-center justify-center'>
+                  <div className='hidden md:flex flex-col items-center justify-center'>
                     <h3>HTML</h3>
                   </div>
                 </div>
@@ -90,7 +104,7 @@ const forkify = () => {
                   <div className='m-auto'>
                     <Image src={css} width='30' height='30' alt='css' />
                   </div>
-                  <div className='flex flex-col items-center justify-center'>
+                  <div className='hidden md:flex flex-col items-center justify-center'>
                     <h3>CSS</h3>
                   </div>
                 </div>

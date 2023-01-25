@@ -24,13 +24,13 @@ const devbud = () => {
           <h3>Social Media + Study Room App</h3>
 
           <Link href='https://devbud.williamzhan.com/' target='_blank'>
-            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+            <button className='px-8 py-2 mt-4 mr-8 mb-4'>Demo</button>
           </Link>
           <Link
             href='https://github.com/williamzhanshum/devbud_mern_app-willzhan'
             target='_blank'
           >
-            <button className='px-8 py-2 mt-4 '>See the Code</button>
+            <button className='px-8 py-2 mt-4 mb-4'>See the Code</button>
           </Link>
         </div>
       </div>

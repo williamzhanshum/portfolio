@@ -22,13 +22,13 @@ const property = () => {
           <h2 className='py-2'>Beyond Real Estate</h2>
           <h3>Property Management App</h3>
           <Link href='/' target='_blank'>
-            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+            <button className='px-8 py-2 mt-4 mr-8 mb-4'>Demo</button>
           </Link>
           <Link
             href='https://github.com/williamzhanshum/beyond_re_app'
             target='_blank'
           >
-            <button className='px-8 py-2 mt-4 '>See the Code</button>
+            <button className='px-8 py-2 mt-4 mb-4'>See the Code</button>
           </Link>
         </div>
       </div>
