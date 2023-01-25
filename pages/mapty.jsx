@@ -1,18 +1,19 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import maptyImg from '../public/assets/projects/mapty-page.png';
 import Link from 'next/link';
 import css from '../public/assets/skills/css.png';
 import javascript from '../public/assets/skills/javascript.png';
 import html from '../public/assets/skills/html.png';
-import ReactPlayer from 'react-player';
+import forkifyGif from '../public/assets/forkify-gif.gif';
+// import ReactPlayer from 'react-player';
 
 const mapty = () => {
-  const [isLoaded, setIsLoaded] = useState(false);
+  // const [isLoaded, setIsLoaded] = useState(false);
 
-  useEffect(() => {
-    setIsLoaded(true);
-  }, []);
+  // useEffect(() => {
+  //   setIsLoaded(true);
+  // }, []);
 
   return (
     <div className='w-full'>
@@ -45,15 +46,39 @@ const mapty = () => {
             Project Overview
           </h2>
 
+          {/* Video Player  */}
+          <div className='relative flex items-center justify-center h-auto w-[80%] p-4 group mb-4 shadow-lg rounded-xl'>
+            <Link href='https://vimeo.com/792337969/d34c2afee2' target='_blank'>
+              <img
+                className='opacity-30 hover:opacity-100'
+                src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/73060fd8-cf88-470b-a9b7-a3b4e5d92778.gif?ClientID=vimeo-core-prod&Date=1674611009&Signature=1ab8b47fa6d76fb1dbb252d6919c707b64e3a77b'
+                width=''
+              />
+            </Link>
+
+            <div className='flex-col group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
+              <div>
+                <Link
+                  href='https://vimeo.com/792337969/d34c2afee2'
+                  target='_blank'
+                >
+                  <p className='text-center p-3 rounded-lg bg-red-400 text-gray-700 font-bold text-lg cursor-pointer shadow-xl'>
+                    WATCH VIDEO
+                  </p>
+                </Link>
+              </div>
+            </div>
+          </div>
+
           {/* Demo Video  */}
-          {isLoaded && (
+          {/* {isLoaded && (
             <ReactPlayer
               className='mb-4'
               controls
               // width='900px'
               url='https://vimeo.com/792337969/d34c2afee2'
             />
-          )}
+          )} */}
 
           <p className='mb-2 font-bold'>
             Why did you do that project? What did you learn? What obstacles did

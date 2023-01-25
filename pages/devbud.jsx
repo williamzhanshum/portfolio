@@ -40,14 +40,28 @@ const devbud = () => {
           <p className='text-3xl font-semibold tracking-widest uppercase text-[rgb(52,93,167)] mb-4'>
             Project Overview
           </p>
-          <Link href='https://vimeo.com/792337969/d34c2afee2' target='_blank'>
-            <div className='mb-8'>
+
+          {/* Video Player  */}
+          <div className='relative flex items-center justify-center h-auto w-full shadow-lg shadow-gray-400 rounded-xl p-4 group'>
+            <Link href='https://vimeo.com/792337969/d34c2afee2' target='_blank'>
               <img
+                className='opacity-20 hover:opacity-100'
                 src='https://user-images.githubusercontent.com/99300376/213829176-39182bfa-d13f-4d48-8be9-73be2b27789b.gif'
                 width=''
               />
+            </Link>
+
+            <div className='flex-col group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
+              <div>
+                <Link href='https://vimeo.com/792337969/d34c2afee2'>
+                  <p className='text-center p-3 rounded-lg bg-red-400 text-gray-700 font-bold text-lg cursor-pointer shadow-xl'>
+                    WATCH VIDEO
+                  </p>
+                </Link>
+              </div>
             </div>
-          </Link>
+          </div>
+
           <p className='mt-4 font-bold text-[rgb(52,93,167)]'>
             For more details about the code and features click on the CODE
             button!
