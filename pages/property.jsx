@@ -38,6 +38,28 @@ const property = () => {
           <p className='text-3xl font-semibold tracking-widest uppercase text-[rgb(52,93,167)] mb-4'>
             Project Overview
           </p>
+
+          {/* Video Player  */}
+          <div className='relative flex items-center justify-center h-auto w-[80%] p-4 group mb-4 shadow-lg rounded-xl'>
+            <Link href='https://vimeo.com/762841409' target='_blank'>
+              <img
+                className='opacity-30 hover:opacity-100'
+                src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/ea307459-4e25-4769-8e3a-46c1ec8e54d1.gif?ClientID=vimeo-core-prod&Date=1674693400&Signature=c5fa66438fe83849dcb1440539bd83e58da5b9d2'
+                // width='900'
+              />
+            </Link>
+
+            <div className='flex-col group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
+              <div>
+                <Link href='https://vimeo.com/762841409' target='_blank'>
+                  <p className='text-center p-3 rounded-lg bg-red-400 text-gray-700 font-bold text-lg cursor-pointer shadow-xl'>
+                    WATCH VIDEO
+                  </p>
+                </Link>
+              </div>
+            </div>
+          </div>
+
           <p className='mt-4 font-bold text-[rgb(52,93,167)]'>
             Curious for more? Click SEE THE CODE!
           </p>

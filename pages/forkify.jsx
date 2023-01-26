@@ -27,7 +27,7 @@ const forkify = () => {
             href='https://github.com/williamzhanshum/forkify-app'
             target='_blank'
           >
-            <button className='px-8 py-2 mt-4 mb-4'>Code</button>
+            <button className='px-8 py-2 mt-4 mb-4'>See the Code</button>
           </Link>
         </div>
       </div>
@@ -61,10 +61,25 @@ const forkify = () => {
             </div>
           </div>
 
+          <p className='mt-4 mb-4 font-bold text-[rgb(52,93,167)]'>
+            For more details about the code and features click on the CODE
+            button!
+          </p>
           <p>
-            Forkify is a font-end applicatio built on Javascript, CSS, HTML, and
-            the Forkify API. Why did you do that project? What did you learn?
-            What obstacles did you overcome? What did you enjoy?
+            Forkify is a font-end application built on Javascript, CSS, HTML,
+            and the Forkify API. The Forkify API is used to fetch all of the
+            recipes that are searched for in the search bar. Users are able to
+            search for recipes, create their own recipes and even bookmark their
+            favorite recipes. There is no back-end to this application, however,
+            all the information is stored in the local storage. Even if users
+            were to refresh the page all the recipes they bookmarked will still
+            be saved. Another useful feature is being able to change the number
+            of servings. Any time the number of servings is changed, the
+            ingredient quantities will change accordingly.
+          </p>
+          <p className='mt-4'>
+            Check out the video demo to see how you can use Forkify. For more
+            detail on the code check out the GitHub repository!
           </p>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>

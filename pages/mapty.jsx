@@ -5,7 +5,6 @@ import Link from 'next/link';
 import css from '../public/assets/skills/css.png';
 import javascript from '../public/assets/skills/javascript.png';
 import html from '../public/assets/skills/html.png';
-// import ReactPlayer from 'react-player';
 
 const mapty = () => {
   // const [isLoaded, setIsLoaded] = useState(false);
@@ -34,7 +33,7 @@ const mapty = () => {
             href='https://github.com/williamzhanshum/mapty-app'
             target='_blank'
           >
-            <button className='px-8 py-2 mt-4 mb-4'>Code</button>
+            <button className='px-8 py-2 mt-4 mb-4'> See the Code</button>
           </Link>
         </div>
       </div>
@@ -50,8 +49,8 @@ const mapty = () => {
             <Link href='https://vimeo.com/792337969/d34c2afee2' target='_blank'>
               <img
                 className='opacity-30 hover:opacity-100'
-                src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/73060fd8-cf88-470b-a9b7-a3b4e5d92778.gif?ClientID=vimeo-core-prod&Date=1674611009&Signature=1ab8b47fa6d76fb1dbb252d6919c707b64e3a77b'
-                width='900px'
+                src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/575176f6-c365-4b57-9464-f0f51f2ddc21.gif?ClientID=vimeo-core-prod&Date=1674688492&Signature=88dfe9a3ac2a2011fd7e4e3f1ac54d00bf3d78e5'
+                // width='900'
               />
             </Link>
 
@@ -69,23 +68,24 @@ const mapty = () => {
             </div>
           </div>
 
-          {/* Demo Video  */}
-          {/* {isLoaded && (
-            <ReactPlayer
-              className='mb-4'
-              controls
-              // width='900px'
-              url='https://vimeo.com/792337969/d34c2afee2'
-            />
-          )} */}
-
-          <p className='mb-2 font-bold'>
-            Why did you do that project? What did you learn? What obstacles did
-            you overcome? What did you enjoy?
+          <p className='mt-4 mb-4 font-bold text-[rgb(52,93,167)]'>
+            For more details about the code and features click on the CODE
+            button!
           </p>
-          <p>
-            Mapty is a front-end application built using JavaScript, CSS and
-            HTML.
+          <p className='mb-2'>
+            Mapty is a front-end application built using JavaScript, CSS, HTML,
+            and the Leaflet API. The Leaflet API was used to render the map and
+            to create the markers using geolocation. Users can log their
+            workouts simply by clicking on the location of the exercise and
+            inputting the necessary information on the left side of the screen.
+            There is no back-end to this application, however, all the
+            information is stored in the local storage. Even if users were to
+            refresh the page all the exercises they have previously logged will
+            still be there.
+          </p>
+          <p className='mt-4'>
+            Check out the video demo to see how you can use Mapty. For more
+            detail on the code check out the GitHub repository!
           </p>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
