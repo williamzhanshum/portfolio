@@ -60,7 +60,7 @@ const mapty = () => {
                   href='https://vimeo.com/792337969/d34c2afee2'
                   target='_blank'
                 >
-                  <p className='text-center p-3 rounded-lg bg-red-400 text-gray-700 font-bold text-lg cursor-pointer shadow-xl'>
+                  <p className='text-center p-3 rounded-lg bg-red-400 text-white font-bold cursor-pointer shadow-lg shadow-gray-400'>
                     WATCH VIDEO
                   </p>
                 </Link>

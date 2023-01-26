@@ -52,7 +52,7 @@ const property = () => {
             <div className='flex-col group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
               <div>
                 <Link href='https://vimeo.com/762841409' target='_blank'>
-                  <p className='text-center p-3 rounded-lg bg-red-400 text-gray-700 font-bold text-lg cursor-pointer shadow-xl'>
+                  <p className='text-center p-3 rounded-lg bg-red-400 text-white font-bold cursor-pointer shadow-lg shadow-gray-400'>
                     WATCH VIDEO
                   </p>
                 </Link>
