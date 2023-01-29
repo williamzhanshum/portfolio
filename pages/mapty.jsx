@@ -45,12 +45,12 @@ const mapty = () => {
           </h2>
 
           {/* Video Player  */}
-          <div className='relative flex items-center justify-center h-auto w-[80%] p-4 group mb-4 shadow-lg rounded-xl'>
+          <div className='relative flex items-center justify-center h-auto w-full p-4 group mb-4 shadow-lg rounded-xl bg-slate-700'>
             <Link href='https://vimeo.com/792337969/d34c2afee2' target='_blank'>
               <img
                 className='opacity-30 hover:opacity-100'
                 src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/575176f6-c365-4b57-9464-f0f51f2ddc21.gif?ClientID=vimeo-core-prod&Date=1674688492&Signature=88dfe9a3ac2a2011fd7e4e3f1ac54d00bf3d78e5'
-                // width='900'
+                width='750px'
               />
             </Link>
 
@@ -60,7 +60,7 @@ const mapty = () => {
                   href='https://vimeo.com/792337969/d34c2afee2'
                   target='_blank'
                 >
-                  <p className='text-center p-3 rounded-lg bg-red-400 text-white font-bold cursor-pointer shadow-lg shadow-gray-400'>
+                  <p className='text-center p-3 rounded-lg bg-amber-500 text-white font-bold cursor-pointer shadow-lg shadow-gray-400'>
                     WATCH VIDEO
                   </p>
                 </Link>
@@ -69,8 +69,7 @@ const mapty = () => {
           </div>
 
           <p className='mt-4 mb-4 font-bold text-[rgb(52,93,167)]'>
-            For more details about the code and features click on the CODE
-            button!
+            See the solution by clicking on SEE THE CODE!
           </p>
           <p className='mb-2'>
             Mapty is a front-end application built using JavaScript, CSS, HTML,

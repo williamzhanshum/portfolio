@@ -40,19 +40,19 @@ const property = () => {
           </p>
 
           {/* Video Player  */}
-          <div className='relative flex items-center justify-center h-auto w-[80%] p-4 group mb-4 shadow-lg rounded-xl'>
+          <div className='relative flex items-center justify-center h-auto w-full p-4 group mb-4 shadow-lg rounded-xl bg-slate-700'>
             <Link href='https://vimeo.com/762841409' target='_blank'>
               <img
                 className='opacity-30 hover:opacity-100'
                 src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/ea307459-4e25-4769-8e3a-46c1ec8e54d1.gif?ClientID=vimeo-core-prod&Date=1674693400&Signature=c5fa66438fe83849dcb1440539bd83e58da5b9d2'
-                // width='900'
+                width='750px'
               />
             </Link>
 
             <div className='flex-col group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
               <div>
                 <Link href='https://vimeo.com/762841409' target='_blank'>
-                  <p className='text-center p-3 rounded-lg bg-red-400 text-white font-bold cursor-pointer shadow-lg shadow-gray-400'>
+                  <p className='text-center p-3 rounded-lg bg-amber-500 text-white font-bold cursor-pointer shadow-lg shadow-gray-400'>
                     WATCH VIDEO
                   </p>
                 </Link>
@@ -61,7 +61,7 @@ const property = () => {
           </div>
 
           <p className='mt-4 font-bold text-[rgb(52,93,167)]'>
-            Curious for more? Click SEE THE CODE!
+            See the solution by clicking on SEE THE CODE!
           </p>
           <p className='mt-4'>
             Beyond Real Estate is a full-stack property management application

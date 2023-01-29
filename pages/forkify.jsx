@@ -38,12 +38,12 @@ const forkify = () => {
             Project Overview
           </p>
 
-          <div className='relative flex items-center justify-center h-auto w-[80%] p-4 group mb-4 shadow-lg rounded-xl'>
+          <div className='relative flex items-center justify-center h-auto w-full p-4 group mb-4 shadow-lg rounded-xl bg-slate-700'>
             <Link href='https://vimeo.com/792437146/25a32a4ab1' target='_blank'>
               <img
                 className='opacity-30 hover:opacity-100'
                 src='https://videoapi-muybridge.vimeocdn.com/animated-thumbnails/image/73060fd8-cf88-470b-a9b7-a3b4e5d92778.gif?ClientID=vimeo-core-prod&Date=1674611009&Signature=1ab8b47fa6d76fb1dbb252d6919c707b64e3a77b'
-                width='900px'
+                width='750px'
               />
             </Link>
 
@@ -53,7 +53,7 @@ const forkify = () => {
                   href='https://vimeo.com/792437146/25a32a4ab1'
                   target='_blank'
                 >
-                  <p className='text-center p-3 rounded-lg bg-red-400 text-white font-bold cursor-pointer shadow-lg shadow-gray-400'>
+                  <p className='text-center p-3 rounded-lg bg-amber-500 text-white font-bold cursor-pointer shadow-lg shadow-gray-400'>
                     WATCH VIDEO
                   </p>
                 </Link>
@@ -62,8 +62,7 @@ const forkify = () => {
           </div>
 
           <p className='mt-4 mb-4 font-bold text-[rgb(52,93,167)]'>
-            For more details about the code and features click on the CODE
-            button!
+            See the solution by clicking on SEE THE CODE!
           </p>
           <p>
             Forkify is a font-end application built on Javascript, CSS, HTML,
