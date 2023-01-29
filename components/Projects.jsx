@@ -23,7 +23,7 @@ const Projects = () => {
           />
           <ProjectItem
             title='Beyond Real Estate'
-            description='Property Management App'
+            description='Property Management'
             backgroundImg={beyondReImg}
             projectUrl='/property'
             demoUrl='/'
