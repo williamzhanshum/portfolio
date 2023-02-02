@@ -68,23 +68,26 @@ const devbud = () => {
           <p className='mt-4 text-lg'>
             DEVBUD. is a full-stack application built with React, MongoDB,
             Firebase, TailwindCSS, and WebRTC. This is a social networking app
-            for software developers that also has a collaborative code space. In
-            this app, aspiring developers are able to network with experienced
-            developers to improve their coding skills. The collaborative code
-            space has live group chat messaging, live group video calls, screen
-            sharing, and a collaborative code editor that supports JavaScript,
-            Python, and Java. Check it out!
+            for software developers with a collaborative code space. In this
+            app, aspiring developers can network with experienced developers to
+            improve their coding skills. The collaborative code space has live
+            group chat messaging, live group video calls, screen sharing, and a
+            collaborative code editor that supports JavaScript, Python, and
+            Java.
           </p>
 
           <p className='mt-4 text-lg'>
-            When I started my coding journey I was fortunate enough to have
-            friends who were software developers that could help me learn how to
-            code. Any time I had questions or was stuck with a problem I could
-            easily message my friends and get help. I realized, however, that
-            most people don't have access to a community of experienced
-            developers they as for help. This is where the inspiration for this
-            project came from, I wanted to make it easier for aspiring
-            developers to have access to experienced developers to mentor them.
+            When I started my coding journey, I was fortunate to have friends
+            who are software developers to support my learning. Any time I had
+            questions or encountered challenges, I could easily message my
+            friends for help. I realized, however, that most people don't have
+            access to a community of experienced developers for support. My
+            motivation for this project is to provide aspiring developers with
+            access to those with experience for mentoring.
+          </p>
+          <p className='mt-4 text-lg'>
+            Check out the video demo to see how you can use DEVBUD. For more
+            detail on the code check out the GitHub repository!
           </p>
         </div>
 

@@ -74,22 +74,16 @@ const property = () => {
           <p className='mt-4 text-lg'>
             The idea for this project came from my experience as a real estate
             agent, when clients would ask me to help assist them with managing
-            their properties. At that time, I did not know of any software that
-            I could recommend to my clients. As I learned more about different
-            coding languages, frameworks and as my coding skills improved; I
-            thought this would be a great opportunity to combine and showcase my
-            skills as a software devloper and former real estate agent.
+            their properties. At that time, there were none available to my
+            knowledge. After improving my coding skills and learning different
+            coding languages and frameworks, I combined my skills as a software
+            developer and former real estate agent to create this project.
           </p>
-
-          {/* <Link href='/' target='_blank'>
-            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          </Link>
-          <Link
-            href='https://github.com/williamzhanshum/beyond_re_app'
-            target='_blank'
-          >
-            <button className='px-8 py-2 mt-4 '>Code</button>
-          </Link> */}
+          <p className='mt-4 text-lg'>
+            Check out the video demo to see how you can use the Beyond Real
+            Estate app. For more detail on the code check out the GitHub
+            repository!
+          </p>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='p-2'>

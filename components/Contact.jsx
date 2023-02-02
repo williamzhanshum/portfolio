@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { AiOutlineMail, AiOutlineArrowUp } from 'react-icons/ai';
+import { GrDocumentDownload } from 'react-icons/gr';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { sendContactForm } from '../lib/api';
@@ -104,7 +105,7 @@ const Contact = () => {
                   </Link>
                   <Link href='/resume.pdf' target='_blank'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-gray-100'>
-                      <BsFillPersonLinesFill size={20} />
+                      <GrDocumentDownload size={20} />
                     </div>
                   </Link>
                 </div>

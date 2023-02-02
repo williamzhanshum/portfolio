@@ -65,20 +65,19 @@ const forkify = () => {
             See the solution by clicking on CODE!
           </p>
           <p className='text-lg'>
-            Forkify is a font-end application built on Javascript, CSS, HTML,
+            Forkify is a front-end application built on Javascript, CSS, HTML,
             and the Forkify API. The Forkify API is used to fetch all of the
-            recipes that are searched for in the search bar. Users are able to
-            search for recipes, create their own recipes and even bookmark their
-            favorite recipes. There is no back-end to this application, however,
-            all the information is stored in the local storage. Even if users
-            were to refresh the page all the recipes they bookmarked will still
-            be saved. Another useful feature is being able to change the number
-            of servings. Any time the number of servings is changed, the
+            recipes that are entered in the search bar. Users are able to search
+            for recipes, create their own, and even bookmark their favorites.
+            While there is no back-end to this application, all the information
+            is kept in the local storage. When users refresh the page, all the
+            bookmarked recipes will be saved. They are also able to change the
+            number of servings. Any time the number of servings is changed, the
             ingredient quantities will change accordingly.
           </p>
           <p className='mt-4 text-lg'>
             Check out the video demo to see how you can use Forkify. For more
-            detail on the code check out the GitHub repository!
+            details about the code, check out the GitHub repository!
           </p>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>

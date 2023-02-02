@@ -74,13 +74,12 @@ const mapty = () => {
           <p className='mb-2 text-lg'>
             Mapty is a front-end application built using JavaScript, CSS, HTML,
             and the Leaflet API. The Leaflet API was used to render the map and
-            to create the markers using geolocation. Users can log their
-            workouts simply by clicking on the location of the exercise and
-            inputting the necessary information on the left side of the screen.
-            There is no back-end to this application, however, all the
-            information is stored in the local storage. Even if users were to
-            refresh the page all the exercises they have previously logged will
-            still be there.
+            to create the markers using geocoding. Users can log their workouts
+            simply by clicking on the location of the exercise and inputting the
+            necessary information on the left side of the screen. While there is
+            no back-end to this application, all the information is stored in
+            the local storage. When users refresh the page, all the exercises
+            they have previously logged are still saved.
           </p>
           <p className='mt-4 text-lg'>
             Check out the video demo to see how you can use Mapty. For more
