@@ -12,27 +12,22 @@ const About = () => {
             About
           </p>
           <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-            pariatur voluptatem magni est, aspernatur, a iste placeat maxime
-            laborum cumque dolorum consequuntur temporibus ratione. Distinctio,
-            deleniti vel. Eum ea doloribus unde ipsa minima impedit, assumenda,
-            asperiores sit delectus animi neque officiis id. Rerum soluta
-            placeat at vel, tempore ex sunt molestias accusantium ea dolorem
-            tempora repudiandae cumque harum animi laudantium aspernatur iste
-            deserunt, non culpa architecto adipisci iusto. Alias laudantium
-            earum perferendis, quaerat iusto commodi corporis quam? Quae
-            perspiciatis voluptate eius, alias recusandae praesentium
-            necessitatibus culpa! Tempora quis atque aperiam. Cumque provident
-            corrupti molestias ut illum vitae adipisci obcaecati nam?
+          <p className='py-2 text-gray-600 text-lg'>
+            I’m a curious and driven software engineer who enjoys collaborating
+            with others to develop user-friendly, accessible applications. As a
+            Chinese-American who was born and raised in Honduras, I work with
+            others fluently in English, Spanish, and Chinese Cantonese.
           </p>
-          <p className='py-2 text-gray-600'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            fugit mollitia repudiandae earum dolores, nobis tempore magnam
-            consequuntur totam animi quam labore rerum! Harum veritatis
-            reprehenderit tempore natus? Iusto, voluptatibus! Quae odit minima
-            sapiente, repellat blanditiis, impedit ab rerum corporis vel debitis
-            enim modi veniam molestiae qui unde aut molestias!
+          <p className='py-2 text-gray-600 text-lg'>
+            My previous experience in mechanical engineering and real estate
+            resulted in a happy combination of resourcefulness with strong
+            problem-solving, communication, and time management skills that I
+            bring to every project.
+          </p>
+          <p className='py-2 text-gray-600 text-lg'>
+            When I’m not coding, you can find me cooking, running with my
+            Siberian Husky, or cheering on FC Barcelona. I find joy in cooking
+            and sharing meals with my friends and family.
           </p>
           <Link href='/#projects' scroll={false}>
             <p className='py-2 text-[rgb(52,93,167)] underline cursor-pointer animate-pulse duration-300 text-lg font-semibold'>

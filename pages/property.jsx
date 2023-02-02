@@ -28,7 +28,7 @@ const property = () => {
             href='https://github.com/williamzhanshum/beyond_re_app'
             target='_blank'
           >
-            <button className='px-8 py-2 mt-4 mb-4'>See the Code</button>
+            <button className='px-8 py-2 mt-4 mb-4'>Code</button>
           </Link>
         </div>
       </div>
@@ -60,10 +60,10 @@ const property = () => {
             </div>
           </div>
 
-          <p className='mt-4 font-bold text-[rgb(52,93,167)]'>
-            See the solution by clicking on SEE THE CODE!
+          <p className='mt-4 font-bold text-[rgb(52,93,167)] text-lg'>
+            See the solution by clicking on CODE!
           </p>
-          <p className='mt-4'>
+          <p className='mt-4 text-lg'>
             Beyond Real Estate is a full-stack property management application
             built on Python, Flask, SQL, Bootstrap and Google Map API. The
             intention behind this project was to create a "one-stop shop"
@@ -71,7 +71,7 @@ const property = () => {
             real estate professionals to organize all the properties and tenants
             under their care.
           </p>
-          <p className='mt-4'>
+          <p className='mt-4 text-lg'>
             The idea for this project came from my experience as a real estate
             agent, when clients would ask me to help assist them with managing
             their properties. At that time, I did not know of any software that

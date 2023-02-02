@@ -30,7 +30,7 @@ const devbud = () => {
             href='https://github.com/williamzhanshum/devbud_mern_app-willzhan'
             target='_blank'
           >
-            <button className='px-8 py-2 mt-4 mb-4'>See the Code</button>
+            <button className='px-8 py-2 mt-4 mb-4'>Code</button>
           </Link>
         </div>
       </div>
@@ -62,10 +62,10 @@ const devbud = () => {
             </div>
           </div>
 
-          <p className='mt-4 font-bold text-[rgb(52,93,167)]'>
-            See the solution by clicking on SEE THE CODE!
+          <p className='mt-4 font-bold text-[rgb(52,93,167)] text-lg'>
+            See the solution by clicking on CODE!
           </p>
-          <p className='mt-4'>
+          <p className='mt-4 text-lg'>
             DEVBUD. is a full-stack application built with React, MongoDB,
             Firebase, TailwindCSS, and WebRTC. This is a social networking app
             for software developers that also has a collaborative code space. In
@@ -76,7 +76,7 @@ const devbud = () => {
             Python, and Java. Check it out!
           </p>
 
-          <p className='mt-4'>
+          <p className='mt-4 text-lg'>
             When I started my coding journey I was fortunate enough to have
             friends who were software developers that could help me learn how to
             code. Any time I had questions or was stuck with a problem I could
