@@ -67,13 +67,13 @@ const devbud = () => {
           </p>
           <p className='mt-4 text-lg'>
             DEVBUD. is a full-stack application built with React, MongoDB,
-            Firebase, TailwindCSS, and WebRTC. This is a social networking app
-            for software developers with a collaborative code space. In this
-            app, aspiring developers can network with experienced developers to
-            improve their coding skills. The collaborative code space has live
-            group chat messaging, live group video calls, screen sharing, and a
-            collaborative code editor that supports JavaScript, Python, and
-            Java.
+            Firebase, TailwindCSS, and Augora's WebRTC. This is a social
+            networking app for software developers with a collaborative code
+            space. In this app, aspiring developers can network with experienced
+            developers to improve their coding skills. The collaborative code
+            space has live group chat messaging, live group video calls, screen
+            sharing, and a collaborative code editor that supports JavaScript,
+            Python, and Java.
           </p>
 
           <p className='mt-4 text-lg'>

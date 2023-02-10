@@ -67,7 +67,7 @@ const property = () => {
             Beyond Real Estate is a full-stack property management application
             built on Python, Flask, SQL, Bootstrap and Google Map API. The
             intention behind this project was to create a "one-stop shop"
-            software application than can help owners, property managers and/or
+            software application that can help owners, property managers and/or
             real estate professionals to organize all the properties and tenants
             under their care.
           </p>
